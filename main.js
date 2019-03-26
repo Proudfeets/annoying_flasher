@@ -26,9 +26,9 @@ class Blink extends Component {
 export default class BlinkApp extends Component {
   render() {
     return(
-    <View style={{marginTop: 100, backgroundColor: 'yellow', fontSize: 30 }}>
+    <View style={{marginTop: 100, backgroundColor: 'yellow', fontSize: 300 }}>
       <Blink style={{ color: 'blue' }} text='I love to blink' />
-      <Blink text='Blinking is just the best' />
+      <Blink text='I hope you like blinking too!!!!' />
       </View>
     );
   }
